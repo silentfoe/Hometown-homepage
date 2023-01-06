@@ -86,3 +86,40 @@ body {
     margin: .5em;
     text-shadow: 0 0 10px black;
 }
+
+.activities-list {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+#puck-drop {
+
+    margin: auto auto;
+    height: 15em;
+    width: 15em;
+    
+    border-radius: 50%;
+}
+
+#river-walk {
+
+    margin: auto auto;
+    height: 15em;
+    width: 15em;
+    
+    border-radius: 50%;
+
+}
+
+#coney-island {
+
+    margin: auto auto;
+    height: 15em;
+    width: 15em;
+    
+    border-radius: 50%;
+
+
+}
