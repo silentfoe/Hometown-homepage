@@ -79,12 +79,19 @@ body {
 
 .box-color {
     /*style for the main text over the background image */ 
-    background: #655664;
+    background: #ECCE8E;
     color: white;
     padding: .25em .5em;
     border-radius: .25em;
     margin: .5em;
     text-shadow: 0 0 10px black;
+}
+
+.activities-section {
+
+    background: linear-gradient(#D2B1B2,#7C484D 55%,#7E1135);
+    color: #FBE2B1;
+    
 }
 
 .activities-list {
@@ -121,5 +128,39 @@ body {
     
     border-radius: 50%;
 
+
+}
+
+.activities-guide {
+
+   
+    background: linear-gradient(#7E1135,#ECCE8E 70%);
+    display: flex;
+    justify-content: center;
+
+    padding: 3em 0;
+    
+
+}
+
+.activities-guide-innerbox {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    box-shadow: 0 0 1em #E98C72;
+    width: 50%;
+    background: linear-gradient(#7E1135,#D0ECF0 40%) 
+    
+
+}
+
+#tour-guide {
+
+    border-radius: 15%;
+    padding: 1em;
 
 }
