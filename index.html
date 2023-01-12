@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+
+
     <link rel="stylesheet" href="style.css">
 
     
@@ -13,8 +24,8 @@
 
     <div class="first-seen">
 
-        <h1 class="box-color">Visit Detroit!</h1>
-        <p class="box-color">Enjoy culture and sports in this historic city built on the Detroit River and a stones throw away from Canada</p>
+        <h1 class="box-color"><a id="visitDetroit" href="https://visitdetroit.com/" target="_blank">Visit Detroit!</a></h1>
+        <p class="box-color" id="italic">Enjoy culture and sports in this historic city built on the Detroit River and a stones throw away from Canada</p>
 
     </div>
         
@@ -23,23 +34,20 @@
         <h2 id="activities-maintext">Top three activities to do in Detroit</h2>
 
         <div class="activities-list">
-            <div>
+            <div class="img-holder">
                 <img id="puck-drop" src="images/hockey.jpg" alt="Two hockey players fighting over a dropped puck next to the referee" >
                 <h3>Go to a Red Wings hockey game</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, praesentium!
-                </p>
+                <p>The Red Wings are one of the oldest hockey teams in the US! They are apart of the original six.</p>
             </div>
-            <div>
+            <div class="img-holder">
                 <img id="river-walk" src="images/river.jpg" alt="Backed out picture of Detroit with the river on the right side and the city skyline in the center showing bike trails and walking paths in the foreground." >
                 <h3>Walk along the river walk or use the bike trails to explore the city</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, praesentium!
-                </p>
+                <p>The river walk is a great place to hangout and take some awesome pictures. Would you dare swim across to Canada???</p>
             </div>
-            <div>
+            <div class="img-holder">
                 <img src="images/coney.jpg" alt="Street view of looking at Layfayette and All American coney island storefronts showing the front of the building" id="coney-island">
                 <h3>Grab some coney dogs at one of our world famous spots</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, praesentium!
-                </p>
+                <p>One of the hottest debates in town: Layfayette coney or All American coney. Two coney dogs enter, only one will leave...</p>
             </div>
         </div>
     </div>
@@ -51,14 +59,14 @@
                 <div>
                     <h3>Your guide</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, blanditiis!</p>
-                    <h4>Per Spencer Pingitore</h4>
+                    <h4 id="signature">Per Spencer Pingitore</h4>
                 </div>
             </div>
         </div>
     </div>
 
     <div>
-        <h4>I would love to show you around! Send me an <a href="mailto:silentfoe9@gmail.com">email</a> if you are in town and would like a guide or someone to hangout with!</h4>
+        <h4 id="invite">I would love to show you around! Send me an <a id="contactMe" href="mailto:silentfoe9@gmail.com">email</a> if you are in town and would like a guide or someone to hangout with!</h4>
 
     </div>
 

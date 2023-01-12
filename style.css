@@ -77,6 +77,37 @@ body {
       
 }
 
+#visitDetroit {
+
+  color: white;
+  text-decoration: none;
+  padding: .3em;
+  font-family: 'Roboto', sans-serif;
+
+  
+}
+
+#visitDetroit:hover {
+
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: .25em;
+  
+}
+
+#italic {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: black;
+  
+
+}
+
+
+
 .box-color {
     /*style for the main text over the background image */ 
     background: #ECCE8E;
@@ -85,6 +116,15 @@ body {
     border-radius: .25em;
     margin: .5em;
     text-shadow: 0 0 10px black;
+}
+
+#activities-maintext {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  text-shadow: 4px 4px 10px ;
+  padding: 1em 1em;
+
 }
 
 .activities-section {
@@ -100,6 +140,29 @@ body {
     justify-content: center;
     
 }
+
+h3 {
+
+
+  font-family: 'Work Sans', sans-serif;
+  padding: 1em 2em;
+
+}
+
+p {
+
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  padding: 1em 1em;
+
+}
+  
+
+.img-holder {
+
+  width: 33.33%;
+}
+
 
 #puck-drop {
 
@@ -143,6 +206,11 @@ body {
 
 }
 
+.activities-guide-innerbox:hover {
+
+  background: #3ABEFF;
+}
+
 .activities-guide-innerbox {
 
 
@@ -162,5 +230,35 @@ body {
 
     border-radius: 15%;
     padding: 1em;
+
+}
+
+#signature {
+
+  font-family: 'Roboto', sans-serif;
+  padding: 1em 1em;
+
+}
+
+#invite {
+
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  color: white;
+  background: black;
+}
+
+#contactMe {
+
+  padding: 1em 0 0 0;
+
+  text-decoration: none;
+  color: aqua;
+  
+}
+
+#contactMe:hover {
+
+  font-size: 2em;
 
 }
